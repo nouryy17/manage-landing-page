@@ -26,7 +26,7 @@ export default function () {
                 <span>Get Started </span>
 
             </nav>
-            <FontAwesomeIcon icon={faBars} onClick={toggleMenu}/>
+            <FontAwesomeIcon className="icon" icon={faBars} onClick={toggleMenu}/>
             </header>
     )
 }

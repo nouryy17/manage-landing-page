@@ -1,2 +1,56 @@
 @import "mixsin"
 @import "varble"
+header
+    height: 80px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 40px
+    padding: 20px 60px
+    .nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-basis: 64%
+        @include for-size(max-mobile)
+            display: none
+            &.nav-open
+               display: block
+               position: absolute
+               top: 85px
+               width: 61%
+               padding: 20px
+               transform: translateX(-50%)
+               left: 50%
+               span
+                   display: none
+               ul
+                   flex-direction: column
+                   justify-content: center
+                   align-items: center
+                   gap: 20px
+           
+        span
+           background-color: hsl(12, 88%, 59%)
+           color: white
+           border-radius: 16px
+           padding: 9px 13px
+           font-size: 12px
+           cursor: pointer
+           &:hover
+              background-color:  hsl(12, 88%, 59%,0.5)
+        ul
+            li
+                margin-right: 10px
+                a
+                    color: $Very-Dark-Blue
+                    transition: 0.5s
+                    font-weight: 600
+                    &:hover
+                        color: $Dark-Grayish-Blue
+    .icon
+        display: none
+        @include  for-size(max-mobile)
+            display: block
+            cursor: pointer
+        

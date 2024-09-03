@@ -1,13 +1,22 @@
 *{
-
+    transition: 0.5s;
     box-sizing: border-box;
     margin: 0;
     padding: 0
 }
-body{
-
+body,html{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
     font-family: "Be Vietnam Pro", sans-serif 
 }
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    cursor: pointer;
+}
+@import "header.sass"
