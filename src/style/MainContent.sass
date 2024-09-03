@@ -1,0 +1,36 @@
+@import "mixsin"
+@import "varble"
+.main-content
+    padding: 40px 60px
+    display: flex
+    @include for-size(max-mobile)
+       flex-direction: column
+       justify-content: center
+       text-align: center
+    
+    .stats-content
+        img
+            width: 500px
+    .text-content
+        padding: 35px
+        p
+            margin: 20px 0
+            line-height: 30px
+            max-width: 355px
+            @include for-size(max-mobile)
+               margin:  20px auto
+
+        h1
+            font-size: 51px
+            @include for-size(max-mobile)
+               font-size: 30px
+
+        span
+           background-color: hsl(12, 88%, 59%)
+           color: white
+           border-radius: 16px
+           padding: 9px 13px
+           font-size: 12px
+           cursor: pointer
+           &:hover
+              background-color:  hsl(12, 88%, 59%,0.5)
