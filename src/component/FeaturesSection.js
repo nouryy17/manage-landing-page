@@ -25,20 +25,19 @@ export default function () {
       return(
         <section className="featuresSection">
           <div className="sectionText">
-          <h1 className="titel">What's different about Manage?</h1>
-          <p className="discription">
-          Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
-          </p>
+                 <h1 className="titel">What's different about Manage?</h1>
+                 <p className="discription">
+                  Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams. </p>
           </div>
           
-               <div className="faeturesList">{
+         <div className="faeturesList">{
                 features.map((featur)=> (
                     <div key={featur.id} className="feature-item">
                         <span> {featur.num} </span>
                         <div className="textList">
 
 
-                           <h3 className="feature-title">{featur.title}</h3>
+                           <h5 className="feature-title">{featur.title}</h5>
                            <p className="feature-description">{featur.description}</p>
                         </div>
                     </div>
