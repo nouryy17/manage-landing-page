@@ -1,4 +1,4 @@
-import "../style/FeaturesSection"
+import "../style/style.scss";
 export default function () {
     const features = [
         {

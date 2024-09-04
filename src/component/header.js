@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import  {faBars} from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
-
+import "../style/style.scss";
    
     
 
