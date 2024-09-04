@@ -22,7 +22,7 @@ export default function () {
     
       return (
         <section className="testimonials-section">
-          <div className="container">
+          
             <div className="testimonials-list">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="testimonial-item">
@@ -32,7 +32,7 @@ export default function () {
                 </div>
               ))}
             </div>
-          </div>
+          
         </section>
       );
 }

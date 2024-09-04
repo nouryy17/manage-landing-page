@@ -1,7 +1,7 @@
 import Header from "./component/header";
 import MainContent from "./component/MainContent";
 import FeaturesSection from "./component/FeaturesSection";
-import TestimonialSection from "./component/FeaturesSection"
+import TestimonialSection from "./component/TestimonialsSection"
 function App() {
   return (
    <div>
