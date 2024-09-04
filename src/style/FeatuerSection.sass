@@ -4,18 +4,24 @@
   padding: 40px 60px
   display: flex
   justify-content: space-between
+  @include for-size(max-mobile)
+     flex-direction: column
+     padding: 20px 30px
 
 .titel
   margin-bottom: 20px
-
+  @include for-size(max-mobile)
+      text-align: center
 
 .discription
   margin-bottom: 40px
   color: $Dark-Grayish-Blue
   font-size: 14px
+  @include for-size(max-mobile)
+     text-align: center
+
 .faeturesList
     flex-basis: 75%
-
 .feature-item
   display: flex
   gap: 30px

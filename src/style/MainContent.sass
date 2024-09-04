@@ -7,10 +7,14 @@
        flex-direction: column
        justify-content: center
        text-align: center
+       padding: 20px 30px
     
     .stats-content
         img
-            width: 500px
+            max-width: 500px
+            @include for-size(max-mobile)
+                max-width: 300px
+                
     .text-content
         padding: 35px
         p

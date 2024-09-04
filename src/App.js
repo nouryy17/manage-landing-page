@@ -1,4 +1,3 @@
-import "./style/style.scss"
 import Header from "./component/header";
 import MainContent from "./component/MainContent"
 import FeaturesSection from "./component/FeaturesSection";
