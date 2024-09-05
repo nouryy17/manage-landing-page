@@ -18,6 +18,11 @@
     .text-content
         padding: 35px
         text-align: left
+
+        @include for-size(max-mobile)
+           text-align: center
+           padding: 15px
+
         p
             margin: 20px 0
             line-height: 30px
