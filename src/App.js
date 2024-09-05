@@ -3,6 +3,7 @@ import MainContent from "./component/MainContent";
 import FeaturesSection from "./component/FeaturesSection";
 import TestimonialSection from "./component/TestimonialsSection"
 import TeamWork from "./component/TeamWork";
+import Footer from "./component/footer";
 function App() {
   return (
    <div>
@@ -11,6 +12,7 @@ function App() {
     <FeaturesSection></FeaturesSection>
     <TestimonialSection></TestimonialSection>
     <TeamWork></TeamWork>
+    <Footer></Footer>
    </div>
   );
 }
