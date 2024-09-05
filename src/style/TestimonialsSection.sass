@@ -20,6 +20,10 @@ section
         margin-bottom: 40px
         gap: 20px
         margin-top: 20px
+        @include for-size(max-mobile)
+                 flex-direction: column
+                 gap: 60px
+
         .testimonial-item
             background-color: $Very-Light-Gray
             border-radius: 4px
