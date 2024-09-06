@@ -18,12 +18,15 @@ footer
         display: flex
         flex-direction: column
         justify-content: space-between
-        img
-            margin-left: 5px
+        svg
+            margin-left: 12px
+            &:hover
+                path
+                   fill: $Bright-Red
         @include for-size(max-mobile)
             gap: 20px
             margin: auto
-            img 
+            svg 
                 margin-left: 0
             .social-icons
                 display: flex
