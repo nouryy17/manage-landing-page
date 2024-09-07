@@ -1,6 +1,7 @@
 import img from "../images/illustration-intro.svg"
 import "../style/MainContent.sass"
 import 'animate.css'
+
 export default function () {
     return(
         <section className="main-content">

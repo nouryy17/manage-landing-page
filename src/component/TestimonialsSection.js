@@ -2,6 +2,7 @@ import img from "../images/avatar-anisha.png"
 import img2 from "../images/avatar-ali.png"
 import img3 from "../images/avatar-richard.png"
 import "../style/TestimonialsSection.sass"
+
 export default function () {
     const testimonials = [
         {

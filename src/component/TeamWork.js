@@ -1,4 +1,5 @@
 import "../style/TeamWork.sass"
+
 export default function () {
     return (
         <div className="TeamWork">
