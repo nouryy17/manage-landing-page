@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nouryy17.github.io/manage-landing-page/",
+  "homepage": "./build/index.html",
   "name": "project",
   "version": "0.1.0",
   "private": true,
